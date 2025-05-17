@@ -2,8 +2,8 @@
 import styled from 'styled-components';
 import { useTheme } from 'styled-components';
 
-// Importe a imagem de fundo (ex: de /assets)
-import cardBackground from '../assets/Grass2.png'; // Ajuste o caminho
+// Importe de imagem de fundo 
+import cardBackground from '../assets/pokefusion_bg11.png'; // Ajuste o caminho
 
 type Props = {
   name: string;
