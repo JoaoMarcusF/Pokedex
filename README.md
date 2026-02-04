@@ -10,10 +10,9 @@ Projeto de aprendizagem para aprender a mexer com react, flask, restAPI, postgre
 
 """"""""""""""""""""""""""""Comandos para rodar o projeto"""""""""""""""""""""""""""""""""""""""""""""
 
-git clone https://github.com/JoaoMarcusF/Pokedex
-cd Pokedex
-
-cp .env.example .env
-docker compose up --build
+1:git clone https://github.com/JoaoMarcusF/Pokedex
+2:cd Pokedex
+3:cp .env.example .env
+4:docker compose up --build
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
