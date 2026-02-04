@@ -8,7 +8,7 @@ import axios from "axios"
 const API_URL = "http://localhost:5000";
 
 export const Home = ( ) =>{
-    var QTD_PKM =  1000
+
     const [pokemons, setPokemons] = useState([])
     const [allPokemons, setAllPokemons] = useState([]);
 

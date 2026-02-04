@@ -180,3 +180,21 @@ def download_missing_sprites_multithreaded(max_workers,missing):
 
         for future in as_completed(futures):
             future.result()  # garante que exceções apareçam
+
+
+def init_db():
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS pokemons (
+            id INTEGER PRIMARY KEY,
+            name TEXT NOT NULL,
+            types TEXT NOT NULL,
+            sprite_front_default TEXT
+        );
+    """)
+
+    conn.commit()
+    cursor.close()
+    conn.close()
