@@ -7,8 +7,9 @@ Projeto de aprendizagem para aprender a mexer com react, flask, restAPI, postgre
 
 
 
-Comandos para rodar o projeto
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""Comandos para rodar o projeto"""""""""""""""""""""""""""""""""""""""""""""
+
 git clone https://github.com/JoaoMarcusF/Pokedex
 cd Pokedex
 
